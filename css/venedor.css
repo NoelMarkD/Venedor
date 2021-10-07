@@ -1,0 +1,312 @@
+ /* Dark Grey - #434B4D
+light Grey - #D6D6D6
+      Pink - #FDA3D9
+ Turquoise - #44B6C1
+ Dark Brown - #000100
+              #272727 */
+
+.top-nav {
+      background: #F6F4F5;
+}
+
+ .links {
+      display:flex;
+      font-size: 15px;
+      
+}
+
+.nav-link {
+      color: gray;
+      padding: 0px;
+      padding-top: 10px;
+}
+
+.nav-link2 {
+      color: #44B6C1;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+}
+
+.account {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 15px;
+}
+
+@media (max-width: 426px) {
+      .account {
+            justify-content: flex-start;
+      }
+}
+
+.account p {
+      padding-top: 10px;
+}
+
+.checkmark {
+      padding-top: 10px;
+      padding-left: 5px;
+      width: 30px;
+      height: 30px;
+}
+
+.shoppingcart {
+      padding-top: 10px;
+      padding-left: 10px;
+      width: 30px;
+      height: 30px;
+}
+
+.person {
+      padding-top: 10px;
+      padding-left: 10px;
+      width: 30px;
+      height: 30px;
+}
+
+.wishlist {
+      padding-top: 10px;
+      padding-left: 10px;
+      width: 30px;
+      height: 30px; 
+}
+
+.dropdown {
+      display: flex;
+      margin-top: 20px;
+      list-style: none;
+      font-weight: 700;
+      padding-inline: 10px;
+      
+}
+
+.venedor-logo {
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 200px;
+      height: 70px;
+}
+
+.main-nav a {
+      padding-left: 20px;
+      color: #000100;
+}
+
+.icon-search {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+}
+
+form {
+      /* margin-left: 225px; */
+      padding-top: 20px;
+}
+
+.dropdown1 {
+      margin-top: 40px;
+      /* margin-left: 525px; */
+      background: #E3E3E3;
+      border-radius: 10%;
+      padding: 9px;
+}
+
+.dropdown2 {
+      margin-top: 40px;
+      margin-left: 10px;
+      background: #E3E3E3;
+      border-radius: 10%;
+      padding: 9px;
+}
+
+.dropdown3 {
+      margin-top: 40px;
+      margin-left: 10px;
+}
+
+.button-cart {
+      padding-bottom: 5px;
+      padding-right: 5px;
+      width: 30px;
+      height:30px;
+}
+
+.button-eflag {
+      padding-bottom: 5px;
+      padding-right: 5px;
+      width: 25px;
+      height:20px;
+}
+
+.iflag {
+      width: 25px;
+      height:20px;  
+}
+
+.sflag {
+      width: 25px;
+      height:20px;  
+}
+
+.fflag {
+      width: 25px;
+      height:20px;  
+}
+
+.gflag {
+      width: 25px;
+      height:20px;  
+}
+
+.btn:focus {
+      outline: none;
+      box-shadow: none;
+}
+
+.banners {
+      margin-top: 30px;
+      width: 340px;
+      height: 200px;
+}
+
+.section1 {
+      margin-top: 50px;
+}
+
+.section1a {
+      margin-top: 60px;
+}
+
+.section2-pic {
+      width: 500px;
+      height: 300px;
+}
+
+.section3 {
+      margin-top: 40px;
+}
+
+p {
+      text-indent: 20px;
+}
+
+.sign-up {
+      margin-top: 40px;
+      font-size: 23px;
+}
+
+.section4 {
+      margin-top: 60px;
+}
+
+.section5 {
+      margin-top: 60px;
+      height: 100px;
+      background: #D6D6D6;
+}
+
+.email-submit {
+      margin-top: 10px;
+      background: #434B4D;
+      color: #fff;
+      margin-left: 10px;
+      height: 40px;
+}
+
+.section6 {
+      background: #434B4D;
+      color: #fff;
+}
+
+.footer-pic {
+      width: 250px;
+      height: 150px;
+}
+
+h3 {
+      font-size: 15px;
+      margin-top: 60px;
+}
+
+.section6 ul {
+      margin-top: 40px;
+      list-style: none;
+      
+}
+
+.section6 ul li::before {
+      content: "\25AA";
+      color: #44B6C1;
+      font-weight: bold;
+      font-size: 30px;
+      padding-right: 5px;
+      width: 2em;
+      margin-left: -1em;
+}
+
+li {
+      margin-top: 10px;
+}
+
+h2 {
+      border-left: #44B6C1 solid 2px;
+      border-width: 4px;
+      padding-left: 5px;
+}
+
+.footer-pic {
+      margin-top: 40px;
+}
+
+.footer-searchbox {
+      margin-top: 10px;
+      border: #f1d310 solid 2px;
+      background: #D6D6D6;
+      width: 70%;
+      height: 40px;
+}
+
+.colophon {
+      margin-top: .5px;
+      background: #434B4D;
+      height: 80px;
+}
+
+.colophon-pic {
+      width: 100%;
+      height: 50px;
+      margin-top: 15px;
+}
+
+.copyright {
+      color: #fff;
+      margin-top: 25px;
+      display: flex;
+      justify-content:  flex-end;
+}
+
+.search-box input {
+      width: 90%;
+}
+
+.form-inline {
+      justify-content: flex-end;
+}
+
+.header-dropdowns {
+      display: flex;
+      justify-content: flex-end;
+}
+
+@media (max-width: 426px) {
+      .header-dropdowns {
+            justify-content: space-around;
+      }
+}
+
+
+
